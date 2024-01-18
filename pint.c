@@ -2,7 +2,7 @@
 #include "main.c"
 /**
  * pint - Prints the top
- * @stack: Stack
+ * @stack: The stack
  * @line-number: Line number in monty file
  */
 void pint(stack_t **stack, unsigned int line_number)
