@@ -1,10 +1,11 @@
 #include "monty.h"
+#include "main.c"
 /**
- * f_pint - Prints the top
+ * pint - Prints the top
  * @stack: Stack
  * @line-number: Line number in monty file
  */
-void f_pint(stack_t **stack, unsigned int line_number)
+void pint(stack_t **stack, unsigned int line_number)
 {
 	if (*stack == NULL)
 	{
