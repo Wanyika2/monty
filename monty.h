@@ -75,4 +75,5 @@ void f_pstr(stack_t **head, unsigned int counter);
 void f_pchar(stack_t **head, unsigned int counter);
 void f_rot1(stack_t **head, unsigned int counter);
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
+int main(int argc, char *argv[])
 #endif
